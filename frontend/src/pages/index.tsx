@@ -6,7 +6,7 @@ import Head from 'next/head';
 const HomePage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [data, setData] = useState<any>(null);
+  const [data, setData] = useState<any[]>([]);
 
   useEffect(() => {
     async function fetchData() {
@@ -29,7 +29,17 @@ const HomePage = () => {
         }
         
         const result = await response.json();
-        setData(result);
+        console.log('Fetched result:', result);
+
+        // Check if the response is an array or an object with a "products" array
+        if (Array.isArray(result)) {
+          setData(result);
+        } else if (result.products && Array.isArray(result.products)) {
+          setData(result.products);
+        } else {
+          throw new Error('Unexpected API response format');
+        }
+        
         setError(null);
       } catch (err) {
         console.error('Error fetching data:', err);
@@ -82,7 +92,7 @@ const HomePage = () => {
           )}
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {data && data.map((product: any) => (
+            {data.map((product: any) => (
               <div key={product.id} className="border rounded-lg p-4 shadow-sm">
                 <h2 className="font-bold text-lg">{product.name}</h2>
                 <p className="text-gray-700">${product.price?.toFixed(2)}</p>

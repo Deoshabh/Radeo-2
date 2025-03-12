@@ -7,21 +7,22 @@ const nextConfig = {
     minimumCacheTTL: 60,
   },
   env: {
-    // Add any environment variables that need to be explicitly exposed
-    // These will complement, not replace, the variables from .env files
+    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
+    NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
   },
-  experimental: {
-    // Any experimental features can go here
-  },
-  // Ensure SVG can be imported as React components
+  experimental: {},
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
       use: ['@svgr/webpack'],
     });
-
     return config;
   },
 };
 
-module.exports = nextConfig;
+module.exports = {
+  reactStrictMode: true,
+  env: {
+    BASE_URL: process.env.BASE_URL,
+  }
+}

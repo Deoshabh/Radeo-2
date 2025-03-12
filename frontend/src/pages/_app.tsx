@@ -6,6 +6,10 @@ import '../styles/globals.css';
 import ErrorBoundary from '../components/ErrorBoundary';
 import { checkEnvironmentVariables } from '../utils/environmentCheck';
 
+// Debug logging to verify that environment variables are loaded
+console.log("DEBUG: NEXT_PUBLIC_API_URL =", process.env.NEXT_PUBLIC_API_URL);
+console.log("DEBUG: NEXTAUTH_SECRET =", process.env.NEXTAUTH_SECRET);
+
 function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   const [apiStatus, setApiStatus] = useState({
     checked: false,
@@ -18,7 +22,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
     issues: [] as string[],
   });
 
-  // Check environment variables
+  // Check environment variables on mount
   useEffect(() => {
     const result = checkEnvironmentVariables();
     setEnvironmentStatus({
@@ -28,7 +32,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
     });
   }, []);
 
-  // Check API connectivity
+  // Check API connectivity on mount
   useEffect(() => {
     const checkApiServer = async () => {
       try {
@@ -39,7 +43,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
           // Set a timeout to avoid hanging if the API is down
           signal: AbortSignal.timeout(5000),
         });
-        
+
         setApiStatus({
           checked: true,
           reachable: response.ok,
@@ -58,7 +62,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
     checkApiServer();
   }, []);
 
-  // Only show environment warnings in development
+  // Log environment issues in development
   useEffect(() => {
     if (process.env.NODE_ENV === 'development' && environmentStatus.checked) {
       if (!environmentStatus.valid) {
@@ -71,7 +75,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   }, [environmentStatus]);
 
   return (
-    <SessionProvider session={session}>
+    <SessionProvider session={session} refetchInterval={5 * 60}>
       <CartProvider>
         <ErrorBoundary>
           {apiStatus.checked && !apiStatus.reachable && process.env.NODE_ENV !== 'production' && (

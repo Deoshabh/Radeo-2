@@ -2,8 +2,10 @@ import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
 import EmailProvider from "next-auth/providers/email";
+import { PrismaAdapter } from "@next-auth/prisma-adapter";
+import { prisma } from "../../../lib/prisma"; // Correct relative path
 
-// Validate environment variables before initializing NextAuth
+// Validate required environment variables
 if (!process.env.NEXTAUTH_URL) {
   console.error("Error: NEXTAUTH_URL is not set");
 }
@@ -14,7 +16,6 @@ if (!process.env.NEXTAUTH_SECRET) {
 
 export default NextAuth({
   providers: [
-    // Configure authentication providers
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID || "",
       clientSecret: process.env.GOOGLE_CLIENT_SECRET || "",
@@ -34,13 +35,12 @@ export default NextAuth({
       name: "Credentials",
       credentials: {
         email: { label: "Email", type: "email" },
-        password: { label: "Password", type: "password" }
+        password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
         if (!credentials) return null;
-        
+
         try {
-          // Replace with your actual authentication logic
           const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/auth/login`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -49,13 +49,13 @@ export default NextAuth({
               password: credentials.password,
             }),
           });
-          
+
           const user = await response.json();
-          
+
           if (response.ok && user) {
             return user;
           }
-          
+
           return null;
         } catch (error) {
           console.error("Auth error:", error);
@@ -64,12 +64,13 @@ export default NextAuth({
       },
     }),
   ],
+  adapter: PrismaAdapter(prisma),
   pages: {
-    signIn: '/auth/signin',
-    signOut: '/auth/signout',
-    error: '/auth/error',
-    verifyRequest: '/auth/verify-request',
-    newUser: '/auth/new-user'
+    signIn: "/auth/signin",
+    signOut: "/auth/signout",
+    error: "/auth/error",
+    verifyRequest: "/auth/verify-request",
+    newUser: "/auth/new-user",
   },
   session: {
     strategy: "jwt",

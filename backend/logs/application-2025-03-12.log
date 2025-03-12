@@ -85,3 +85,160 @@
 {"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 11:19:57"}
 {"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 11:19:57"}
 {"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 11:49:59"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 12:21:53"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 12:21:53"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 12:21:53"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 12:21:53"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 12:21:53"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 12:21:53"}
+{"level":"error","message":"Invalid SendGrid API key format","service":"radeo-backend","timestamp":"2025-03-12 12:57:45"}
+{"level":"info","message":"SMTP transport initialized as fallback","service":"radeo-backend","timestamp":"2025-03-12 12:57:45"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 12:57:45"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 12:57:45"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 12:57:45"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 12:57:45"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 12:57:45"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 13:10:56"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:10:56"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:10:56"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:12:58"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:12:58"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:12:59"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:12:59"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 13:25:13"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:25:13"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:25:13"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 13:31:56"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:31:56"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:31:56"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:32:32"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:32:32"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:33:23"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:33:23"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:33:40"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:33:40"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 13:40:25"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:40:25"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:40:25"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:40:28"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:40:28"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:40:28"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:40:28"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:40:47"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:40:47"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 13:47:56"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:47:56"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:47:56"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:47:57"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:47:57"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:47:58"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:47:58"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:50:56"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:50:56"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:50:59"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:50:59"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 13:54:40"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:54:40"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:54:40"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:54:42"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:54:42"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:56:16"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:56:16"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:56:19"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:56:19"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:56:41"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:56:41"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:56:48"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 13:56:48"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:04:10"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:10:38"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:11:12"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 14:12:00"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:12:00"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:12:00"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:12:57"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:12:57"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:22:02"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:24:57"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:24:57"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:25:05"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:25:05"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 14:25:06"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:25:06"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:25:06"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:25:09"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:25:09"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:25:11"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:25:11"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:25:13"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:25:13"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:26:36"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:26:36"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:27:06"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:27:06"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:27:51"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:27:51"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:27:59"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:27:59"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 14:30:24"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:30:24"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:30:24"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:30:25"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:30:25"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:30:26"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:30:26"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:31:13"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:31:13"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:31:13"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:31:31"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:31:31"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:33:52"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:33:52"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:33:54"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:33:54"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:34:08"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:34:08"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:34:09"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:34:09"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:34:10"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:34:10"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:34:11"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:34:11"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:34:12"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:34:12"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 14:38:00"}
+{"level":"error","message":"Invalid SendGrid API key format","service":"radeo-backend","timestamp":"2025-03-12 14:38:57"}
+{"level":"info","message":"SMTP transport initialized as fallback","service":"radeo-backend","timestamp":"2025-03-12 14:38:57"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 14:38:57"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 14:38:57"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 14:38:57"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 14:38:57"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 14:38:57"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-12 14:51:16"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-12 15:03:55"}
+{"level":"error","message":"Invalid SendGrid API key format","service":"radeo-backend","timestamp":"2025-03-12 15:04:07"}
+{"level":"info","message":"SMTP transport initialized as fallback","service":"radeo-backend","timestamp":"2025-03-12 15:04:07"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 15:04:07"}
+{"level":"error","message":"Invalid SendGrid API key format","service":"radeo-backend","timestamp":"2025-03-12 15:10:06"}
+{"level":"info","message":"SMTP transport initialized as fallback","service":"radeo-backend","timestamp":"2025-03-12 15:10:06"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 15:10:06"}
+{"level":"error","message":"Invalid SendGrid API key format","service":"radeo-backend","timestamp":"2025-03-12 15:23:48"}
+{"level":"info","message":"SMTP transport initialized as fallback","service":"radeo-backend","timestamp":"2025-03-12 15:23:48"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 15:23:48"}
+{"level":"warn","message":"Route not found: GET /api/auth/login","service":"radeo-backend","timestamp":"2025-03-12 15:45:19"}
+{"level":"error","message":"Invalid SendGrid API key format","service":"radeo-backend","timestamp":"2025-03-12 15:48:16"}
+{"level":"info","message":"SMTP transport initialized as fallback","service":"radeo-backend","timestamp":"2025-03-12 15:48:16"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 15:48:16"}
+{"level":"warn","message":"Route not found: GET /api/auth/login","service":"radeo-backend","timestamp":"2025-03-12 15:49:06"}
+{"level":"error","message":"Invalid SendGrid API key format","service":"radeo-backend","timestamp":"2025-03-12 15:53:12"}
+{"level":"info","message":"SMTP transport initialized as fallback","service":"radeo-backend","timestamp":"2025-03-12 15:53:12"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 15:53:12"}
+{"level":"warn","message":"Route not found: GET /api/products/prod-1","service":"radeo-backend","timestamp":"2025-03-12 15:57:57"}
+{"level":"warn","message":"Route not found: GET /api/products/prod-1","service":"radeo-backend","timestamp":"2025-03-12 15:57:57"}
+{"level":"error","message":"Invalid SendGrid API key format","service":"radeo-backend","timestamp":"2025-03-12 15:58:59"}
+{"level":"info","message":"SMTP transport initialized as fallback","service":"radeo-backend","timestamp":"2025-03-12 15:58:59"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 15:58:59"}
+{"level":"error","message":"Invalid SendGrid API key format","service":"radeo-backend","timestamp":"2025-03-12 16:00:13"}
+{"level":"info","message":"SMTP transport initialized as fallback","service":"radeo-backend","timestamp":"2025-03-12 16:00:13"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 16:00:13"}
+{"level":"warn","message":"Route not found: GET /api/auth","service":"radeo-backend","timestamp":"2025-03-12 16:03:01"}
