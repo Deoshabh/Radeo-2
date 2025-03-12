@@ -1,0 +1,61 @@
+{"level":"error","message":"Failed to parse Firebase service account JSON: Firebase service account is missing required fields","service":"radeo-backend","stack":"Error: Firebase service account is missing required fields\n    at Object.<anonymous> (C:\\Users\\gagan\\Desktop\\radeo\\backend\\server.js:50:15)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Object..js (node:internal/modules/cjs/loader:1699:10)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-03-11T10:31:54.547Z"}
+{"level":"error","message":"Failed to initialize Firebase Admin SDK: Invalid Firebase service account JSON format","service":"radeo-backend","stack":"Error: Invalid Firebase service account JSON format\n    at Object.<anonymous> (C:\\Users\\gagan\\Desktop\\radeo\\backend\\server.js:54:13)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Object..js (node:internal/modules/cjs/loader:1699:10)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-03-11T10:31:54.548Z"}
+{"level":"info","message":"Firebase initialized with application default credentials","service":"radeo-backend","timestamp":"2025-03-11T10:31:54.549Z"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-11T10:31:54.549Z"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-11T10:31:54.562Z"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/users/health","service":"radeo-backend","timestamp":"2025-03-11T10:31:54.562Z"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:31:54.566Z"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:31:54.571Z"}
+{"level":"info","message":"Attempting to initialize Firebase using individual environment variables...","service":"radeo-backend","timestamp":"2025-03-11T10:36:06.628Z"}
+{"level":"info","message":"Firebase Admin SDK initialized successfully using individual environment variables","service":"radeo-backend","timestamp":"2025-03-11T10:36:06.658Z"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-11T10:36:06.658Z"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-11T10:36:06.671Z"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/users/health","service":"radeo-backend","timestamp":"2025-03-11T10:36:06.672Z"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:36:06.675Z"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:36:06.681Z"}
+{"level":"info","message":"Attempting to initialize Firebase using individual environment variables...","service":"radeo-backend","timestamp":"2025-03-11T10:36:40.559Z"}
+{"level":"info","message":"Firebase Admin SDK initialized successfully using individual environment variables","service":"radeo-backend","timestamp":"2025-03-11T10:36:40.582Z"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-11T10:36:40.583Z"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-11T10:36:40.595Z"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/users/health","service":"radeo-backend","timestamp":"2025-03-11T10:36:40.595Z"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:36:40.599Z"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:36:40.604Z"}
+{"level":"info","message":"Attempting to initialize Firebase using individual environment variables...","service":"radeo-backend","timestamp":"2025-03-11T10:36:44.311Z"}
+{"level":"info","message":"Firebase Admin SDK initialized successfully using individual environment variables","service":"radeo-backend","timestamp":"2025-03-11T10:36:44.334Z"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-11T10:36:44.334Z"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-11T10:36:44.346Z"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/users/health","service":"radeo-backend","timestamp":"2025-03-11T10:36:44.347Z"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:36:44.352Z"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:36:44.357Z"}
+{"level":"info","message":"Attempting to initialize Firebase using individual environment variables...","service":"radeo-backend","timestamp":"2025-03-11T10:37:33.516Z"}
+{"level":"info","message":"Firebase Admin SDK initialized successfully using individual environment variables","service":"radeo-backend","timestamp":"2025-03-11T10:37:33.540Z"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-11T10:37:33.541Z"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-11T10:37:33.554Z"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/users/health","service":"radeo-backend","timestamp":"2025-03-11T10:37:33.554Z"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:37:33.559Z"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:37:33.565Z"}
+{"level":"info","message":"Attempting to initialize Firebase using individual environment variables...","service":"radeo-backend","timestamp":"2025-03-11T10:37:36.794Z"}
+{"level":"info","message":"Firebase Admin SDK initialized successfully using individual environment variables","service":"radeo-backend","timestamp":"2025-03-11T10:37:36.819Z"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-11T10:37:36.819Z"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-11T10:37:36.832Z"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/users/health","service":"radeo-backend","timestamp":"2025-03-11T10:37:36.832Z"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:37:36.837Z"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:37:36.843Z"}
+{"level":"info","message":"Attempting to initialize Firebase using individual environment variables...","service":"radeo-backend","timestamp":"2025-03-11T10:39:07.251Z"}
+{"level":"info","message":"Firebase Admin SDK initialized successfully using individual environment variables","service":"radeo-backend","timestamp":"2025-03-11T10:39:07.274Z"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-11T10:39:07.274Z"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-11T10:39:07.286Z"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/users/health","service":"radeo-backend","timestamp":"2025-03-11T10:39:07.287Z"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:39:07.290Z"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:39:07.294Z"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-11T10:39:45.424Z"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-11T10:39:52.642Z"}
+{"level":"info","message":"Attempting to initialize Firebase using individual environment variables...","service":"radeo-backend","timestamp":"2025-03-11T10:40:23.212Z"}
+{"level":"info","message":"Firebase Admin SDK initialized successfully using individual environment variables","service":"radeo-backend","timestamp":"2025-03-11T10:40:23.236Z"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-11T10:40:23.236Z"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-11T10:40:23.248Z"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/users/health","service":"radeo-backend","timestamp":"2025-03-11T10:40:23.249Z"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:40:23.252Z"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-11T10:40:23.257Z"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-11T10:40:33.874Z"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-11T10:40:33.877Z"}

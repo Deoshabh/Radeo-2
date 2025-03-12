@@ -1,0 +1,87 @@
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 00:12:20"}
+{"level":"info","message":"Retrieved 0 categories from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 00:12:20"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 00:15:39"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 00:15:39"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 00:15:39"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 00:15:39"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:15:39"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:15:39"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 00:18:45"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 00:18:45"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 00:18:45"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 00:18:45"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:18:45"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:18:45"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 00:19:00"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 00:24:47"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 00:24:47"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 00:24:47"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 00:24:47"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:24:47"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:24:47"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 00:37:38"}
+{"level":"info","message":"Retrieved 0 categories from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 00:37:38"}
+{"level":"warn","message":"Route not found: GET /api/users/login","service":"radeo-backend","timestamp":"2025-03-12 00:39:45"}
+{"level":"warn","message":"Route not found: GET /","service":"radeo-backend","timestamp":"2025-03-12 00:41:00"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 00:43:15"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 00:43:15"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 00:43:15"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 00:43:15"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:43:15"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:43:15"}
+{"level":"warn","message":"Route not found: GET /api/users/login","service":"radeo-backend","timestamp":"2025-03-12 00:50:24"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 00:56:05"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 00:56:05"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 00:56:05"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 00:56:05"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:56:05"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:56:05"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 00:57:29"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 00:57:29"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 00:57:29"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 00:57:29"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:57:29"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:57:29"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 00:59:55"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 00:59:55"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 00:59:55"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 00:59:55"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:59:55"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 00:59:55"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 01:00:33"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 01:00:33"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 01:00:33"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 01:00:33"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 01:00:33"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 01:00:33"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 01:01:07"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 01:01:07"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 01:01:07"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 01:01:07"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 01:01:07"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 01:01:07"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 01:01:13"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 01:01:13"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 01:01:14"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 01:01:14"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 01:01:14"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 01:01:14"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 01:01:15"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 01:01:15"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 01:01:40"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 01:01:40"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 01:02:10"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 01:02:10"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 01:02:10"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 01:02:10"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 01:02:10"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 01:02:10"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 01:02:12"}
+{"level":"info","message":"Health check endpoint called successfully","service":"radeo-backend","timestamp":"2025-03-12 01:02:12"}
+{"level":"info","message":"SendGrid API initialized successfully","service":"radeo-backend","timestamp":"2025-03-12 11:19:57"}
+{"level":"info","message":"Server running on port 5000","service":"radeo-backend","timestamp":"2025-03-12 11:19:57"}
+{"level":"info","message":"Health check available at: http://localhost:5000/api/health","service":"radeo-backend","timestamp":"2025-03-12 11:19:57"}
+{"level":"info","message":"Environment: development","service":"radeo-backend","timestamp":"2025-03-12 11:19:57"}
+{"level":"info","message":"Redis client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 11:19:57"}
+{"level":"info","message":"MongoDB client connected successfully","service":"radeo-backend","timestamp":"2025-03-12 11:19:57"}
+{"level":"info","message":"Retrieved 0 products from MongoDB","service":"radeo-backend","timestamp":"2025-03-12 11:49:59"}
